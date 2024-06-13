@@ -1,21 +1,8 @@
 # ElixirPopularity
 
-**TODO: Add description**
+Scrape the Hacker News API to measure Elixir's popularity over time, using Broadway + RabbitMQ.
 
-## Installation
+The code is based on the blog post series by [Alex Koutmos](https://twitter.com/akoutmos):
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elixir_popularity` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:elixir_popularity, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/elixir_popularity>.
-
+- [Part 1](https://akoutmos.com/post/broadway-rabbitmq-and-the-rise-of-elixir/)
+- [Part-2](https://akoutmos.com/post/broadway-rabbitmq-and-the-rise-of-elixir-two/)
